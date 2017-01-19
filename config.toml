@@ -1,0 +1,39 @@
+baseurl = "/"
+relativeurls = true
+languageCode = "en-us"
+title = "HOME"
+copyright = "John Maxwell"
+theme = "ghostwriter"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[Author]
+    name = "John Maxwell"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    
+[[menu.main]]
+    name = "Vitae"
+    url = "/vitae/"
+
+    
+[Params]
+    intro = true
+    headline = "Blog"
+    github = "https://github.com/jmmaxwell"
+    linkedin = "https://www.linkedin.com/in/maxwelljohnm"
+    twitter = "https://twitter.com/jhnmxwll"
+    opengraph = true
+    shareTwitter = true
+
+
